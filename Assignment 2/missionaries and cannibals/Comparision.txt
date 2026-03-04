@@ -1,0 +1,6 @@
+                        --- Comparison Notes ---
+BFS finds the shortest path  but can use more memory.
+UCS is guaranteed optimal for nonnegative costs; here each move costs 1 so UCS ~= BFS.
+DFS uses less memory but may return a longer  solution depending on move order.
+DLS prevents DFS from going too deep, but fails if the limit is too small.
+IDDFS repeats DLS with increasing limits; it is optimal like BFS with low memory like DFS.
