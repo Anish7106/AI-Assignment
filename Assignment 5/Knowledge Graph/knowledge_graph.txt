@@ -1,0 +1,107 @@
+
+3. KNOWLEDGE GRAPHS AND TOOLS USED TO BUILD THEM
+
+A Knowledge Graph (KG) is a structured representation of information where entities are connected using relationships.
+It stores knowledge in the form of nodes and edges, helping machines understand relationships between real-world objects.
+
+Knowledge Graphs are widely used in:
+- Search Engines
+- Recommendation Systems
+- AI Assistants
+- Healthcare Systems
+- Social Networks
+- Semantic Web Applications
+
+--------------------------------------------------
+
+MAIN COMPONENTS OF A KNOWLEDGE GRAPH
+
+1. Nodes (Entities)
+Entities represent real-world objects such as:
+- People
+- Places
+- Organizations
+- Products
+
+Example:
+Hyderabad, Charminar, Biryani
+
+2. Edges (Relationships)
+Relationships connect entities together.
+
+Example:
+Hyderabad -> has_place -> Charminar
+
+3. Properties
+Additional information about entities.
+
+Example:
+Charminar:
+- Type = Historical Monument
+- Cost = Low
+
+--------------------------------------------------
+
+TOOLS USED TO BUILD KNOWLEDGE GRAPHS
+
+1. Graph Databases (Storage & Querying)
+
+- Neo4j
+- Memgraph
+- Amazon Neptune / Azure Cosmos DB
+- AllegroGraph & GraphDB
+- JanusGraph
+
+--------------------------------------------------
+
+2. Constructing and Automating Graphs
+
+- LlamaIndex / LangChain
+- GLiNER
+- Infernotus
+- ContextClue Graph Builder
+
+--------------------------------------------------
+
+3. Ontology and Modeling Tools
+
+- Protégé
+- TopBraid Composer
+
+--------------------------------------------------
+
+4. Visualization Tools
+
+- Gephi
+- Kumu
+- Linkurious
+
+--------------------------------------------------
+
+5. Personal Knowledge Graph Tools
+
+- Obsidian Graph View
+- TheBrain
+
+--------------------------------------------------
+
+KEY CONSIDERATIONS WHEN CHOOSING A TOOL
+
+- Data Scale
+- Structure
+- Method
+
+--------------------------------------------------
+
+EXAMPLE OF A SIMPLE KNOWLEDGE GRAPH
+
+Hyderabad -> has_place -> Charminar
+Hyderabad -> has_food -> Biryani
+Biryani -> recommended_drink -> Lassi
+
+--------------------------------------------------
+
+CONCLUSION
+
+Knowledge Graphs help organize and connect information in an intelligent manner.
+They improve reasoning, semantic search, recommendation systems, and data integration.
